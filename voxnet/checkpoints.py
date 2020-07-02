@@ -1,6 +1,6 @@
 
 import logging
-import cPickle as pickle
+import pickle
 import warnings
 import numpy as np
 

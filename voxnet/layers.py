@@ -268,8 +268,8 @@ class RotPool3dLayer(Layer):
         input_shape = self.input_shape
         if any(s is None for s in input_shape):
             input_shape = input.shape
-            print 'input shape none'
-        print input_shape
+            print('input shape none')
+        print(input_shape)
 
         batch_size2 = input_shape[0]//self.num_degs
         num_features = input_shape[1]

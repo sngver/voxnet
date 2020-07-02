@@ -1,5 +1,5 @@
 
-import cStringIO as StringIO
+import StringIO
 import tarfile
 import time
 import zlib
